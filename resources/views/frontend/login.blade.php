@@ -6,7 +6,7 @@
         
         <div class="row">
             <div class="col-md-8 offset-md-2"><br>
-                
+                <p class="alert alert-warning"  >{{ $note}} <button class="close" data-dismiss="alert" >&times;</button></p>
                 <!-- Login Tab Content -->
                 <div class="account-content">
                     <div class="row align-items-center justify-content-center">

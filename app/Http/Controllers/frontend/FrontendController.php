@@ -29,8 +29,9 @@ class FrontendController extends Controller
      */
     public function login()
     {
+        $note= 'You can assecc the admin dashboard with Email:super@admin.com and password:123456789';
        
-        return view('frontend.login');
+        return view('frontend.login', compact('note'));
     }
 
 

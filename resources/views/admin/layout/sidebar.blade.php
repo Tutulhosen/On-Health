@@ -26,9 +26,7 @@
                 <li> 
                     <a href="{{route('admin.doctor.index')}}"><i class="fe fe-user-plus"></i> <span>Doctors</span></a>
                 </li>
-                <li> 
-                    <a href="{{route('admin.patient.index')}}"><i class="fe fe-user"></i> <span>Patients</span></a>
-                </li>
+
                 <li> 
                     <a href=""><i class="fe fe-star-o"></i> <span>Reviews</span></a>
                 </li>
