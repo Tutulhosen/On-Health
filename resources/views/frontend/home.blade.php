@@ -1,7 +1,7 @@
 @extends('frontend.layout.app')
 
 @section('main-content')
-<p style="font-size: 45px; color:red; background-color:blue" class="alert alert-warning"  >{{ $note}} <button class="close" data-dismiss="alert" >&times;</button></p>
+<p style="font-size: 45px; color:red; background-color:blue" class="alert alert-warning"  >{{ $note}} <button class="close color-white" data-dismiss="alert" >&times;</button></p>
 <div class="page-hero bg-image overlay-dark" style="background-image: url(frontend/assets/img/bg_image_1.jpg);">
   <div class="hero-section">
     <div class="container text-center wow zoomIn">
