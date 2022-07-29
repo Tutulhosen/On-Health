@@ -17,8 +17,9 @@ class FrontendController extends Controller
      */
     public function index()
     {
+        $note= 'If you missed the CSS , you just click on the logo (One-Health)';
         $doctor_data= Doctor::latest()->get();
-        return view('frontend.home', compact('doctor_data'));
+        return view('frontend.home', compact('doctor_data','note'));
     }
 
 
