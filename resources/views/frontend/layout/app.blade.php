@@ -10,15 +10,15 @@
 
   <title>One Health - Medical Center </title>
 
-  <link rel="stylesheet" href="{{asset('public/frontend/assets/css/maicons.css')}}">
+  <link rel="stylesheet" href="{{asset('frontend/../assets/css/maicons.css')}}">
 
-  <link rel="stylesheet" href="{{asset('public/frontend/assets/css/bootstrap.css')}}">
+  <link rel="stylesheet" href="{{asset('frontend/../assets/css/bootstrap.css')}}">
 
-  <link rel="stylesheet" href="{{asset('public/frontend/assets/vendor/owl-carousel/css/owl.carousel.css')}}">
+  <link rel="stylesheet" href="{{asset('frontend/../assets/vendor/owl-carousel/css/owl.carousel.css')}}">
 
-  <link rel="stylesheet" href="{{asset('public/frontend/assets/vendor/animate/animate.css')}}">
+  <link rel="stylesheet" href="{{asset('frontend/../assets/vendor/animate/animate.css')}}">
 
-  <link rel="stylesheet" href="{{asset('public/frontend/assets/css/theme.css')}}">
+  <link rel="stylesheet" href="{{asset('frontend/../assets/css/theme.css')}}">
 </head>
 <body>
 
@@ -33,15 +33,15 @@
   {{-- footer part  --}}
   @include('frontend.layout.footer')
 
-<script src="{{asset('frontend/assets/js/jquery-3.5.1.min.js')}}"></script>
+<script src="{{asset('frontend/../assets/js/jquery-3.5.1.min.js')}}"></script>
 
-<script src="{{asset('frontend/assets/js/bootstrap.bundle.min.js')}}"></script>
+<script src="{{asset('frontend/../assets/js/bootstrap.bundle.min.js')}}"></script>
 
-<script src="{{asset('frontend/assets/vendor/owl-carousel/js/owl.carousel.min.js')}}"></script>
+<script src="{{asset('frontend/../assets/vendor/owl-carousel/js/owl.carousel.min.js')}}"></script>
 
-<script src="{{asset('frontend/assets/vendor/wow/wow.min.js')}}"></script>
+<script src="{{asset('frontend/../assets/vendor/wow/wow.min.js')}}"></script>
 
-<script src="{{asset('frontend/assets/js/theme.js')}}"></script>
+<script src="{{asset('frontend/../assets/js/theme.js')}}"></script>
   
 </body>
 </html>
