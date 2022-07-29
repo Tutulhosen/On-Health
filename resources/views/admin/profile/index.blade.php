@@ -15,7 +15,13 @@
 					<div class="row align-items-center">
 						<div class="col-auto profile-image">
 							<a href="#">
+								@if (Auth::guard('adminUser')->user()->photo!='avatar.png')
 								<img style="width: 100px;height:100px;border-radius:50%" class="rounded-circle" alt="User Image" src="{{ url('storage/admin/' . Auth::guard('adminUser')->user()->photo) }}">
+								@endif
+								@if (Auth::guard('adminUser')->user()->photo=='avatar.png')
+								<img style="width: 100px;height:100px;border-radius:50%" class="rounded-circle" alt="User Image" src="{{ url('avatar.png') }}">
+								@endif
+								
 							</a>
 						</div>
 						<div class="col ml-md-n2 profile-user-info">
