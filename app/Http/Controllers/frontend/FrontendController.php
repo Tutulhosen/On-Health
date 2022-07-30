@@ -17,7 +17,7 @@ class FrontendController extends Controller
      */
     public function index()
     {
-        $note= 'If you missed the CSS , you just click on the logo (One-Health)';
+        $note= 'If you missed the CSS , you just click on the logo (One-Health). The image path is working properly in my localhost but not working in free live host at Heroku. I would be fixed it';
         $doctor_data= Doctor::latest()->get();
         return view('frontend.home', compact('doctor_data','note'));
     }
